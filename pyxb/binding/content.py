@@ -797,6 +797,7 @@ class WildcardUse (_FACSymbol):
         return 'xs:any per %s' % (self.xsdLocation(),)
 
 import collections
+collections.MutableSequence = collections.abc.MutableSequence
 
 # Do not inherit from list; that's obscene, and could cause problems with the
 # internal assumptions made by Python.  Instead delegate everything to an
