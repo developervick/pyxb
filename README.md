@@ -1,5 +1,10 @@
 # PyXB -- Python W3C XML Schema Bindings
 
+## Patch
+This fork is patch in last latest official version of pyxb.
+**This fork supports all the versions of python >= 3.10 and python < 3.10.**
+If your projects runs on diffrent versions of python than this fork will work for you. 
+
 ## End-of-life notice
 
 The last release of PyXB was 1.2.6 dated 2017-09-03, with some patches
